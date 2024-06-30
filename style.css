@@ -71,12 +71,16 @@ input{
     gap: 10px;
 }
 .box-one{
+    display: flex;
+    flex-direction: row;
     border: 1px solid;
     border-radius: 10px;
     width: 50%;
     margin: 15px 0 5px 0;
 }
 .box-two{
+    display: flex;
+    flex-direction: row;
     border: 1px solid;
     border-radius: 10px;
     width: 50%;
@@ -84,4 +88,19 @@ input{
 }
 .name{
     gap: 10px;
+}
+
+.masculino{
+    padding: 5px;
+}
+.femenino{
+    padding: 5px;
+}
+.botao-masculino{
+    position: relative;
+    left: 140px;
+}
+.botao-femenino{
+    position: relative;
+    left: 140px;
 }
